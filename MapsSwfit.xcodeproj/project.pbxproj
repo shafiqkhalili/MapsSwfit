@@ -13,6 +13,8 @@
 		E224A22E23F540EA00020946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E224A22C23F540EA00020946 /* Main.storyboard */; };
 		E224A23023F540EC00020946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E224A22F23F540EC00020946 /* Assets.xcassets */; };
 		E224A23323F540EC00020946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E224A23123F540EC00020946 /* LaunchScreen.storyboard */; };
+		E224A23C23F5439300020946 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E224A23B23F5439300020946 /* MapKit.framework */; };
+		E224A23E23F5504100020946 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224A23D23F5504100020946 /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E224A22F23F540EC00020946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E224A23223F540EC00020946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E224A23423F540EC00020946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E224A23B23F5439300020946 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E224A23D23F5504100020946 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E224A23C23F5439300020946 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				E224A22523F540EA00020946 /* MapsSwfit */,
 				E224A22423F540EA00020946 /* Products */,
+				E224A23A23F5439300020946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				E224A22F23F540EC00020946 /* Assets.xcassets */,
 				E224A23123F540EC00020946 /* LaunchScreen.storyboard */,
 				E224A23423F540EC00020946 /* Info.plist */,
+				E224A23D23F5504100020946 /* Pin.swift */,
 			);
 			path = MapsSwfit;
+			sourceTree = "<group>";
+		};
+		E224A23A23F5439300020946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E224A23B23F5439300020946 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +156,7 @@
 				E224A22B23F540EA00020946 /* ViewController.swift in Sources */,
 				E224A22723F540EA00020946 /* AppDelegate.swift in Sources */,
 				E224A22923F540EA00020946 /* SceneDelegate.swift in Sources */,
+				E224A23E23F5504100020946 /* Pin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
