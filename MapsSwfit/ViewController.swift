@@ -31,9 +31,12 @@ class ViewController: UIViewController,MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
         //        print("Long: \(userLocation.coordinate.longitude), Lat: \(userLocation.coordinate.latitude)")
+        
         updateRegion()
     }
-    
+    /**
+     Display size
+     */
     func updateRegion(){
         let userLocation = mapView.userLocation
         

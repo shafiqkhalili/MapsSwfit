@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Asking user to use position service
+        //Even have to add Privacy - Location When In Use Usage Description => "Message" in Info.plist
         locationManager.requestWhenInUseAuthorization()
         
         return true
